@@ -1,0 +1,3 @@
+S3method(.DollarNames, dummy::Foo)
+S3method(`$`, dummy::Foo)
+export(Foo)
