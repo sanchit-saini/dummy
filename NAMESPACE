@@ -1,3 +1,11 @@
-S3method(.DollarNames, dummy::Foo)
-S3method(`$`, dummy::Foo)
-export(Foo)
+##  OO
+import(S7)
+import(methods)
+
+## S7
+export(ResourceBase)
+
+## S4
+exportMethods("[[")
+exportClasses("Student", "StudentList")
+export(Student, StudentList)

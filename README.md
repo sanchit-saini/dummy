@@ -1,8 +1,5 @@
 ```R
 library(dummy)
-x <- Foo(list(a=1, b=2, c=3))
-## show value if explicitly typed however it is not suggesting names for `x`
-x$a
-## calling correct method
-sloop::s3_dispatch(.DollarNames(x))
+rb <- ResourceBase("https://someurl.com", "foobar.txt", elements=list("x"=1, "y"=2))
+rb[[1L]]
 ```
